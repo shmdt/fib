@@ -11,3 +11,10 @@ Build GO
 Build RUST
 1. cd rust
 2. rake
+
+Then run in main folder
+```ruby
+ruby fib.rb
+```
+
+<img width="491" alt="Screenshot 2022-01-10 at 16 02 02" src="https://user-images.githubusercontent.com/16562028/148780828-ed6b4f65-384e-42d1-8cd9-df32cd8a043e.png">
