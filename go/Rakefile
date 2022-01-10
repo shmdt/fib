@@ -1,0 +1,4 @@
+desc 'Build GO implementation'
+task :default do
+  `go build -o ../lib/fib/fibGo.so -buildmode=c-shared ./fib.go`
+end

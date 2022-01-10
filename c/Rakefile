@@ -1,0 +1,6 @@
+desc 'Build C implementation'
+task :default do
+  `gcc -c -fPIC ./fib.c -o fib.o`
+  `gcc -shared fib.o -o fibC.so`
+  `mv -f ./fibC.so ../lib/fib`
+end

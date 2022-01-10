@@ -1,0 +1,6 @@
+desc 'Build Rust implementation'
+# https://doc.rust-lang.org/reference/linkage.html
+task :default do
+  `cargo rustc --release`
+  `mv -f ./target/release/libfib.dylib ../lib/fib`
+end

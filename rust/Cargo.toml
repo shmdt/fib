@@ -1,0 +1,10 @@
+[package]
+name = "fib"
+version = "0.1.0"
+authors = ["Anton Kovalenko <shmdtt@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
